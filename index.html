@@ -5,19 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oxygen project</title>
     <script src="https://kit.fontawesome.com/a44f6b2d07.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
 </head>
-<body style="background-color: #3cbbbb">
-    <header>
-        <div>
-            <img src="img/logo.png" alt="логотип Единый центр записи">
-            <p><b>Единый<br>центр записи</b></p>
-            <span class="fas fa-phone-square-alt"><b>80300 5000</b></span>
+<body>
+    <header class="header_content">
+        
+        <div class="main_logo">
+            <div><img src="img/logo.png" alt="логотип Единый центр записи"></div>
+            <div><p><b>Единый<br>центр записи</b></p></div>
         </div>
-        <nav>
-            <ul>
+            
+        <div class="menu_items_phone">
+            <span class="fas fa-phone-square-alt"><b>80300 5000</b></span>
+            <nav>
+            <ul class="menu_items">
                 <li><a href="">Главная</a></li>
-                <li>Услуги
-                    <ul>
+                <li class="menu_items_services">Услуги
+                    <ul class="services">
                         <li><a href="">МРТ</a></li>
                         <li><a href="">КТ</a></li>
                         <li><a href="">Рентген</a></li>
@@ -29,10 +33,11 @@
                 <li><a href="">FAQ</a></li>
                 <li><a href="">Контакты</a></li>
             </ul>
-        </nav>
+            </nav>
+        </div>
     </header>
     <section>
-        <img src="img/layer1.png" alt="background">
+        <img src="img/laye333r1.png" alt="background">
         <p>
             Всю необходимую информацию о том, как и в каком центре<br>
             сделать МРТ, КТ и рентген исследования, сравнить интересующие<br>
@@ -152,7 +157,7 @@
             <h3>Последние статьи</h3>
                <ul>
                     <li>
-                        <img src="img/last_article.png" alt="Last article">
+                        <img src="img/last_article54545454.png" alt="Last article">
                         <p>
                             Что такое текст «рыба» знают все, кто работает с<br>
                             версткой журналов, дизайном и разработкой сайтов.<br>
@@ -272,7 +277,7 @@
                 <h4>Enquiry Form</h4>
                 <input type="text" placeholder="Name" required>
                 <input type="tel"   placeholder="Phone" required>
-                <p><textarea rows="10" cols="45" name="text"></textarea></p>
+                <p><textarea rows="10" cols="30" name="text"></textarea></p>
                 <p><input type="submit" value="SUBMIT"></p>
                 </form>
             </div>
