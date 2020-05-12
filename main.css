@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+@media (min-width: 320px) and (max-width: 575.99px){
+    header{
+        background: #43b1d2;
+        height: 200px;
+        width: 100%;
+        margin: 0;
+       padding: 0;
+    }
+    .header_content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .main_logo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+    }
+    .main_logo p{
+        padding-left: 10px;
+        color: white;
+    }
+    
+    .menu_items_phone{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 200px;
+        height: 50px;
+    }
+    .menu_items{
+        display: flex;
+        flex-direction: column;
+        padding-left: 100px;
+        justify-content: flex-start;
+    }
+    .menu_items a{
+        text-decoration: none;
+    }
+    .menu_items li{
+        list-style-type: none;
+        padding-left: 10px;
+    }
+    
+    .menu_items_services{
+        position: relative;
+    }
+    .services{
+        display: none;
+        position: absolute;
+        left: -100px;
+        top: 0px;
+    }
+    .menu_items_services:hover .services{
+        display: block;
+    }
+}
+@media (min-width: 1200px){
+header{
+    background: #43b1d2;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.header_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.main_logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.main_logo p{
+    padding-left: 10px;
+    color: white;
+}
+
+.menu_items_phone{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.menu_items{
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+}
+.menu_items a{
+    text-decoration: none;
+}
+.menu_items li{
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.menu_items_services{
+    position: relative;
+}
+.services{
+    display: none;
+    position: absolute;
+}
+.menu_items_services:hover .services{
+    display: block;
+}
+
