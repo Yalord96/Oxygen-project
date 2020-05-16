@@ -1,114 +1,156 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd{
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+
 body{
     margin: 0;
     padding: 0;
 }
-@media (min-width: 320px) and (max-width: 575.99px){
-    header{
-        background: #43b1d2;
-        height: 200px;
-        width: 100%;
-        margin: 0;
-       padding: 0;
-    }
-    .header_content{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    .main_logo{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        width: 50px;
-        height: 50px;
-    }
-    .main_logo p{
-        padding-left: 10px;
-        color: white;
-    }
-    
-    .menu_items_phone{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        width: 200px;
-        height: 50px;
-    }
-    .menu_items{
-        display: flex;
-        flex-direction: column;
-        padding-left: 100px;
-        justify-content: flex-start;
-    }
-    .menu_items a{
-        text-decoration: none;
-    }
-    .menu_items li{
-        list-style-type: none;
-        padding-left: 10px;
-    }
-    
-    .menu_items_services{
-        position: relative;
-    }
-    .services{
-        display: none;
-        position: absolute;
-        left: -100px;
-        top: 0px;
-    }
-    .menu_items_services:hover .services{
-        display: block;
-    }
-}
-@media (min-width: 1200px){
 header{
     background: #43b1d2;
     width: 100%;
-    margin: 0;
-    padding: 0;
 }
-.header_content{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+@media (min-width: 320px) and (max-width: 575.99px){
+   .brand{
+       display: flex;
+       align-items: center;
+   }
+   .header__brand{
+       display: flex;
+       justify-content: space-between;
+       padding: 15px 10px;
+   }
+   .brand__name{
+        padding-left: 16px;
+        font-size: 19px;
+        font-family: "Calibri";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1.25;
+        text-align: left;
+        text-shadow: 0px 6px 14px rgba(0, 0, 0, 0.35);
+    }
+    .brand__phone{
+        font-size: 15px;
+        font-family: "Tahoma";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1.5;
+        text-align: left;
+    }
+    .brand__phone span{
+        padding-left: 4px;
+    }
+    .menu a, li{
+        color: #494848;
+        font-size: 14px;
+        letter-spacing: 1px;
+        font-family: "Calibri";
+    }
+    .services__items{
+        background-color: turquoise;
+        display: none;
+        padding: 16px;
+    }
+    .menu__items{
+        display: flex;
+        flex-direction: row;
+        /* flex-basis: 100%; */
+        padding: 0;
+        flex-wrap: wrap;
+    }
+    .menu__items li{
+        list-style-type: none;
+        padding-left: 10px;
+    }
+   
 }
-.main_logo{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.main_logo p{
-    padding-left: 10px;
-    color: white;
-}
+@media (min-width: 1200px){
 
-.menu_items_phone{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    .header__brand{
+        display: flex;
+        justify-content: space-between;
+        /* margin: 20px 16px; */
+        padding: 20px 16px;
+    }
+    .brand{
+        display: flex;
+        align-items: center;
+    }
+    .brand__name{
+        padding-left: 16px;
+        font-size: 24px;
+        font-family: "Calibri";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1.25;
+        text-align: left;
+        text-shadow: 0px 6px 14px rgba(0, 0, 0, 0.35);
+    }
+    .brand__phone{
+        font-size: 20px;
+        font-family: "Tahoma";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1.5;
+        text-align: left;
+    }
+    .brand__phone span{
+        padding-left: 10px;
+    }
+    .menu__items{
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        padding: 0;
+        justify-content: flex-end;
+        margin-top:  -35px;
+        padding: 0 16px 16px 0;
+    }
+    .menu a, li{
+        color: #494848;
+        font-size: 24px;
+        letter-spacing: 1px;
+        font-family: "Calibri";
+    }
+    .menu__items a{
+        text-decoration: none;
+    }
+    .menu__items li{
+        list-style-type: none;
+        padding-left: 16px;
+    }
+    .menu__items_main:first-child a{
+        color: white;
+    }
+    .services{
+        margin: 0;
+        padding: 0;
+    }
+    .services__items{
+        background-color: turquoise;
+        display: none;
+        padding: 16px;
+    }
 }
-.menu_items{
-    display: flex;
-    flex-direction: row;
-    padding-left: 100px;
-}
-.menu_items a{
-    text-decoration: none;
-}
-.menu_items li{
-    list-style-type: none;
-    padding-left: 10px;
-}
-
-.menu_items_services{
-    position: relative;
-}
-.services{
-    display: none;
-    position: absolute;
-}
-.menu_items_services:hover .services{
-    display: block;
-}
-
