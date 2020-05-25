@@ -8,35 +8,37 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header aria-label="шапка сайта"> 
-        <div class="header__brand" aria-label="логотип сайта">
-            <div class="brand" role="banner">
-                <div><img class="brand__img" src="img/logo.png" alt="логотип Единый центр записи"></div>
-                <span class="brand__name">Единый<br>центр записи</span>
+    <header aria-label="шапка сайта" class="header-content">
+        <div class="header">
+            <div class="header__brand" aria-label="логотип сайта">
+                <figure class="brand" role="banner">
+                    <img class="brand__img" src="img/logo.png" alt="логотип Единый центр записи">
+                    <figcaption class="brand__name">Единый <br> центр записи</figcaption>
+                </figure>
+                <span class="brand__phone" aria-label="номер телефона"><i class="fas fa-phone-square-alt"></i><span>80300 5000</span></span>
+            </div>   
+            <div class="menu" role="navigation" aria-label="меню навигации">
+                <nav>
+                <ul class="menu__items" role="list">
+                    <li role="listitem" class="menu__items_main"><a href="">Главная</a></li>
+                    <li role="listitem" class="menu__items services"><a href="">Услуги <img src="img/arrow-down.png" alt="стрелка вниз"></a>
+                        <ul class="services__items">
+                            <li role="listitem"><a href="">МРТ</a></li>
+                            <li role="listitem"><a href="">КТ</a></li>
+                            <li role="listitem"><a href="">Рентген</a></li>
+                        </ul>
+                    </li>
+                    <li role="listitem"><a href="">Клиники и кабинеты</a></li>
+                    <li role="listitem"><a href="">О нас</a></li>
+                    <li role="listitem"><a href="">Статьи</a></li>
+                    <li role="listitem"><a href="">FAQ</a></li>
+                    <li role="listitem"><a href="">Контакты</a></li>
+                </ul>
+                </nav>
             </div>
-            <span class="brand__phone" aria-label="номер телефона"><i class="fas fa-phone-square-alt"></i><span>80300 5000</span></span>
-    </div>   
-        <div class="menu" role="navigation" aria-label="меню навигации">
-            <nav>
-            <ul class="menu__items" role="list">
-                <li role="listitem" class="menu__items_main"><a href="">Главная</a></li>
-                <li role="listitem" class="menu__items services"><a href="">Услуги <img src="img/arrow-down.png" alt="стрелка вниз"></a>
-                    <ul class="services__items">
-                        <li role="listitem"><a href="">МРТ</a></li>
-                        <li role="listitem"><a href="">КТ</a></li>
-                        <li role="listitem"><a href="">Рентген</a></li>
-                    </ul>
-                </li>
-                <li role="listitem"><a href="">Клиники и кабинеты</a></li>
-                <li role="listitem"><a href="">О нас</a></li>
-                <li role="listitem"><a href="">Статьи</a></li>
-                <li role="listitem"><a href="">FAQ</a></li>
-                <li role="listitem"><a href="">Контакты</a></li>
-            </ul>
-            </nav>
         </div>
     </header>
-    <section>
+    <!-- <section>
         <img src="img/laye333r1.png" alt="background">
         <p>
             Всю необходимую информацию о том, как и в каком центре<br>
@@ -211,79 +213,101 @@
             <button><img src="img/arrow_left.png" alt="arrow_left"></button>
             <button><img src="img/arrow_right.png" alt="arrow_right"></button>
         </div>
-    </section> 
+    </section>  -->
+    <section class="test">
+        <img  class="test1" src="img/layer1.png" alt="background">
+    </section>
     <footer>
-        <div>
-            <img src="img/logo.png" alt="логотип Единый центр записи">
-            <p>Единый<br>центр записи</p> 
-            <form action="">
-                <p>Заказать звонок: </p>
-                <input type="tel"  maxlength="13" autocomplete="none" placeholder="+380"
-                       pattern="\+380\d{9}" required>
-                <input type="submit">
-            </form>
-        </div>
-        <section>
-            <div>
-                <ul>
-                    <h4>Get in touch</h4>
-                    <li>
-                        <img src="img/envelope.png" alt="envelope">
-                        <p>free@psdfreebies.com</p>
-                        <p>free@psdfreebies.com</p>
-                    </li>
-                    <li>
-                        <img src="img/Icon_phone.png" alt="phone">
-                        <p>+123 456 7890</p>
-                        <p>+123 456 7890</p>
-                    </li>
-                    <li>
-                        <img src="img/Icon_metka.png" alt="Map">
-                        <p>123, Main Road, New City,</p>
-                        <p>My Country 123456</p>
-                    </li>
-                    <li>
-                        <nav>
-                            <a class="fab fa-facebook-f" href="#"></a>
-                            <a class="fab fa-google-plus-g" href="#"></a>
-                            <a class="fab fa-vk" href="#"></a>
-                            <a class="fab fa-youtube" href="#"></a>
-                            <a class="fab fa-linkedin-in" href="#"></a>
-                        </nav>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <ul><h4>Quick Links</h4>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contract us</a></li>
-                    <li><a href="#">Faq</a></li>
-                    <li><a href="#">Insurance</a></li>
-                    <li><a href="#">Cotact us</a></li>
-                </ul>
-            </div>
-            <div>
-                <ul><h4>Our Services</h4>
-                    <li><a href="#">Work Injuries</a></li>
-                    <li><a href="#">Sport Injuries</a></li>
-                    <li><a href="#">Cold Laser Therapy</a></li>
-                    <li><a href="#">Massage Therapy</a></li>
-                    <li><a href="#">Physiotherapy</a></li>
-                    <li><a href="#">Chiropratic Therapy</a></li>
-            </div>
-            <div>
-                <form>
-                <h4>Enquiry Form</h4>
-                <input type="text" placeholder="Name" required>
-                <input type="tel"   placeholder="Phone" required>
-                <p><textarea rows="10" cols="30" name="text"></textarea></p>
-                <p><input type="submit" value="SUBMIT"></p>
+        <div class="footer-brand">
+            <div class="footer">
+                <figure class="brand" role="banner">
+                    <img class="brand__img" src="img/logo.png" alt="логотип Единый центр записи">
+                    <figcaption class="brand__name">Единый <br> центр записи</figcaption>
+                </figure>
+                <form action="" class="call-back">
+                    <label aria-label="Заказать звонок:" for="call-back__input" class="call-back__lable">Заказать звонок:</label>
+                    <input aria-label="Поле для номера обратной связи" id="call-back__input" type="tel"  maxlength="13" autocomplete="none" placeholder="+380"
+                    pattern="\+380\d{9}" required>
+                    <button aria-label="Отправить" type="submit" class="call-back__button">Отправить</button>
                 </form>
             </div>
-        </section>
-        <div>
-            <h5>Copyright © 2017.</h5>
+        </div>
+        <section class="footer-content">
+            <div class="footer-content__block">
+                <div class="footer-content__column" role="navigation">
+                    <ul class="footer-content__title">Get in touch
+                        <li class="list__item">
+                            <img class="list__item-mail" src="img/envelope.png" alt="envelope">
+                            <div class="list__item-text">
+                                <span>free@psdfreebies.com</span>
+                                <span>free@psdfreebies.com</span>
+                            </div>
+                            
+                        </li>
+                        <li class="list__item">
+                            <img class="list__item_phone" src="img/Icon_phone.png" alt="phone">
+                            <div class="list__item-text">
+                                <p>+123 456 7890</p>
+                                <p>+123 456 7890</p>
+                            </div>
+                        </li>
+                        <li class="list__item">
+                            <img class="list__item-map" src="img/Icon_metka.png" alt="Map">
+                            <div class="list__item-text">
+                                <p>123, Main Road, New City,</p>
+                                <p>My Country 123456</p>
+                            </div>
+                        </li>
+                        <li class="list__item">
+                            <div>
+                                <a href="#" class="socials"></a>
+                                <a href="#" class="socials google"></a>
+                                <a href="#" class="socials vk"></a>
+                                <a href="#" class="socials youtube"></a>
+                                <a href="#" class="socials ln"></a>
+                            </div>
+                            <!-- <nav>
+                                <a class="fab fa-facebook-f" href="#"></a>
+                                <a class="fab fa-google-plus-g" href="#"></a>
+                                <a class="fab fa-vk" href="#"></a>
+                                <a class="fab fa-youtube" href="#"></a>
+                                <a class="fab fa-linkedin-in" href="#"></a>
+                            </nav> -->
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-content__column" role="navigation">
+                    <ul class="footer-links">Quick Links
+                        <li class="footer-links__item"><a class="arrow" href="#">About us</a></li>
+                        <li class="footer-links__item"><a class="arrow" href="#">Blog</a></li>
+                        <li class="footer-links__item"><a class="arrow" href="#">Contract us</a></li>
+                        <li class="footer-links__item"><a class="arrow" href="#">Faq</a></li>
+                        <li class="footer-links__item"><a class="arrow" href="#">Insurance</a></li>
+                        <li class="footer-links__item"><a class="arrow" href="#">Cotact us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-content__column" role="navigation">
+                    <ul class="footer-links">Our Services
+                        <li class="footer-links__item"><a class="arrow" href="#">Work Injuries</a></li>
+                        <li class="footer-links__item"><a class="arrow" href="#">Sport Injuries</a></li>
+                        <li class="footer-links__item"><a class="arrow" href="#">Cold Laser Therapy</a></li>
+                        <li class="footer-links__item"><a class="arrow" href="#">Massage Therapy</a></li>
+                        <li class="footer-links__item"><a class="arrow" href="#">Physiotherapy</a></li>
+                        <li class="footer-links__item"><a class="arrow" href="#">Chiropratic Therapy</a></li>
+                </div>
+                <div class="footer-content__column" role="navigation">
+                    <form class="footer-form" role="textbox">
+                    <label class="footer-form__label" for="footer-form">Enquiry Form</label>
+                    <p><input aria-label="Поле для ввода имени" class="footer-form__input footer-form__name" type="text" placeholder="Name" required></p>
+                    <p><input aria-label="Поле для ввода телефона" class="footer-form__input" type="tel" placeholder="Phone" required></p>
+                    <p><textarea aria-label="Поле для сообщения" class="footer-form__input footer-form__textarea" rows="5" cols="25" name="text" placeholder="Message"></textarea></p>
+                    <p><input class="footer-form__button" type="submit" value="SUBMIT"></p>
+                    </form>
+                </div>
+            </section>
+            <div class="footer-info">
+                <p>Copyright © 2017.</p>
+            </div>
         </div>
     </footer>
 </body>
