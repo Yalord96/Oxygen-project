@@ -45,6 +45,13 @@ body{
     max-width: 1440px;
     margin: 0 auto;
 }
+.clinic_card{
+    max-width: 685px;
+    margin: 0 auto;
+    border: 3px solid;
+    border-color: #43b1d2;
+    padding: 20px;
+}
 .test{
     height: 504px;
     margin: 0;
@@ -302,7 +309,56 @@ body{
         flex-wrap: wrap;
         padding-bottom: 20px;
     }
+      /* CLINIC CARD */
+    .clinic_card__head{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .clinic_card__title{
+        font-family: "Myriad Pro";
+        font-size: 28px;
+        font-weight: bold;
+        line-height: 1px;
+    }
+    .clinic_card__name{
+        margin: 20px 0 40px 0;
+    }
+    .clinic_card__adrress{
+        font-family: "Tahoma";
+        font-size: 14px;
+        color: #43b1d2;
+        font-style: italic;
+    }
+    .clinic_card__info{
+        font-family: "Calibri";
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .clinic_card__number{
+        font-family: "Myriad Pro";
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .clinic_card__footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .clinic_card__button{
+        font-family: "Myriad Pro";
+        font-size: 18px;
+        background-color: #37c3a8;
+        border: solid;
+        border-radius: 5px;
+        border-color: #37c3a8;
+        color: white;
+        padding: 5px 10px;
+    }
 
+ /* CLINIC CARD */
     /* copyright */
 
     .footer-info{
@@ -532,7 +588,57 @@ body{
         flex-wrap: wrap;
         padding-bottom: 20px;
     }
+      /* CLINIC CARD */
+    .clinic_card__head{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .clinic_card__title{
+        font-family: "Myriad Pro";
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 1px;
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+        
+    }
+    .clinic_card__name{
+        margin: 20px 0 40px 0;
+    }
+    .clinic_card__adrress{
+        font-family: "Tahoma";
+        font-size: 14px;
+        color: #43b1d2;
+        font-style: italic;
+    }
+    .clinic_card__info{
+        font-family: "Calibri";
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .clinic_card__number{
+        font-family: "Myriad Pro";
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .clinic_card__footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .clinic_card__button{
+        font-family: "Myriad Pro";
+        font-size: 18px;
+        background-color: #37c3a8;
+        border: solid;
+        border-radius: 5px;
+        border-color: #37c3a8;
+        color: white;
+        padding: 5px 10px;
+    }
 
+ /* CLINIC CARD */
     /* copyright */
 
     .footer-info{
@@ -761,7 +867,58 @@ body{
         flex-wrap: wrap;
         padding-bottom: 20px;
     }
+      /* CLINIC CARD */
+      
+    .clinic_card__head{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .clinic_card__title{
+        font-family: "Myriad Pro";
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 1px;
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+        
+    }
+    .clinic_card__name{
+        margin: 20px 0 40px 0;
+    }
+    .clinic_card__adrress{
+        font-family: "Tahoma";
+        font-size: 14px;
+        color: #43b1d2;
+        font-style: italic;
+    }
+    .clinic_card__info{
+        font-family: "Calibri";
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .clinic_card__number{
+        font-family: "Myriad Pro";
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .clinic_card__footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .clinic_card__button{
+        font-family: "Myriad Pro";
+        font-size: 18px;
+        background-color: #37c3a8;
+        border: solid;
+        border-radius: 5px;
+        border-color: #37c3a8;
+        color: white;
+        padding: 5px 10px;
+    }
 
+ /* CLINIC CARD */
     /* copyright */
 
     .footer-info{
@@ -987,7 +1144,57 @@ body{
         cursor: pointer;
     }
 
+      /* CLINIC CARD */
+    .clinic_card__head{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .clinic_card__title{
+        font-family: "Myriad Pro";
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 1px;
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+        
+    }
+    .clinic_card__name{
+        margin: 20px 0 40px 0;
+    }
+    .clinic_card__adrress{
+        font-family: "Tahoma";
+        font-size: 14px;
+        color: #43b1d2;
+        font-style: italic;
+    }
+    .clinic_card__info{
+        font-family: "Calibri";
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .clinic_card__number{
+        font-family: "Myriad Pro";
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .clinic_card__footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .clinic_card__button{
+        font-family: "Myriad Pro";
+        font-size: 18px;
+        background-color: #37c3a8;
+        border: solid;
+        border-radius: 5px;
+        border-color: #37c3a8;
+        color: white;
+        padding: 5px 10px;
+    }
 
+ /* CLINIC CARD */
     /* copyright */
 
     .footer-info{
@@ -1220,4 +1427,58 @@ body{
         align-items: center;
         height: 105px;
     }
+
+
+    /* CLINIC CARD */
+    .clinic_card__head{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .clinic_card__title{
+        font-family: "Myriad Pro";
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 1px;
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+        
+    }
+    .clinic_card__name{
+        margin: 20px 0 40px 0;
+    }
+    .clinic_card__adrress{
+        font-family: "Tahoma";
+        font-size: 14px;
+        color: #43b1d2;
+        font-style: italic;
+    }
+    .clinic_card__info{
+        font-family: "Calibri";
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .clinic_card__number{
+        font-family: "Myriad Pro";
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .clinic_card__footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .clinic_card__button{
+        font-family: "Myriad Pro";
+        font-size: 18px;
+        background-color: #37c3a8;
+        border: solid;
+        border-radius: 5px;
+        border-color: #37c3a8;
+        color: white;
+        padding: 5px 10px;
+    }
+
+ /* CLINIC CARD */
+
 }
