@@ -1,0 +1,1215 @@
+@charset "UTF-8";
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+@font-face {
+  font-family: "Myriad Pro";
+  src: url(../Oxygen-project/fonts/myriad_pro.otf); }
+
+@font-face {
+  font-family: "Calibri";
+  src: url(../Oxygen-project/fonts/calibri.ttf); }
+
+@font-face {
+  font-family: "Tahoma";
+  src: url(../Oxygen-project/fonts/tahoma.ttf); }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.header-content {
+  background: #43b1d2; }
+
+.header {
+  max-width: 1440px;
+  margin: 0 auto; }
+
+.clinic_card {
+  max-width: 685px;
+  margin: 0 auto;
+  border: 3px solid;
+  border-color: #43b1d2;
+  padding: 20px; }
+
+.test {
+  height: 504px;
+  margin: 0;
+  padding: 0; }
+
+.test1 {
+  height: 504px;
+  width: 100%; }
+
+.footer-brand {
+  background-color: #43b1d2; }
+
+.footer {
+  max-width: 1440px;
+  margin: 0 auto; }
+
+.footer-content {
+  background-color: #e5e9f2;
+  font-family: "Myriad Pro"; }
+
+.footer-content__block {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-around; }
+
+.footer-content__column {
+  display: flex;
+  flex-direction: column; }
+
+.list__item {
+  display: flex; }
+
+.list__item-text {
+  display: flex;
+  flex-direction: column; }
+
+.menu__items_main:first-child a {
+  color: white; }
+
+@media (min-width: 320px) and (max-width: 575.99px) {
+  .footer {
+    flex-direction: column; }
+  .brand {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; }
+  .header__brand {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px; }
+  .brand__name {
+    padding-left: 16px;
+    font-size: 19px;
+    font-family: "Calibri";
+    color: white;
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: left;
+    text-shadow: 0px 6px 14px rgba(0, 0, 0, 0.35); }
+  .brand__phone {
+    font-size: 15px;
+    font-family: "Tahoma";
+    color: white;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: left; }
+  .brand__phone span {
+    padding-left: 4px; }
+  .menu a, li {
+    color: #494848;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: "Calibri"; }
+  .services__items {
+    background-color: turquoise;
+    display: none;
+    padding: 16px; }
+  .menu__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* flex-basis: 100%; */
+    padding: 0;
+    flex-wrap: wrap; }
+  .menu__items li {
+    list-style-type: none;
+    padding-left: 10px; }
+  .list__item-text {
+    font-size: 14px;
+    color: #a7aab1;
+    padding-left: 40px; }
+  .footer-links__item {
+    padding-bottom: 15px;
+    font-size: 16px;
+    letter-spacing: 0px; }
+  .footer-links__item:first-child {
+    padding-top: 40px; }
+  .arrow::before {
+    content: "\25B6";
+    color: #0087be;
+    padding-right: 21px; }
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 16px; }
+  .call-back {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+  .call-back__lable {
+    font-size: 18px;
+    font-family: "Calibri";
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-right: 10px;
+    padding-bottom: 10px; }
+  #call-back__input {
+    border: none;
+    width: 200px;
+    height: 28px;
+    border-radius: 5px;
+    padding-left: 15px; }
+  .call-back__button {
+    width: 102px;
+    height: 30px;
+    background-color: #cbd4e6;
+    border-radius: 8px;
+    border-left: solid 1px #494848;
+    margin-top: 10px; }
+  .list__item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px; }
+  .list__item_mail {
+    width: 40px;
+    height: 31px; }
+  .list__item_phone {
+    width: 27px;
+    height: 40px;
+    padding-left: 5px;
+    margin-right: 7px; }
+  .list__item:first-child {
+    padding-top: 40px; }
+  .footer-links a, li {
+    font-family: "Myriad Pro";
+    color: #a7aab1;
+    font-size: 14px;
+    letter-spacing: 1px; }
+  .footer-content__column {
+    font-size: 20px;
+    font-family: "Calibri";
+    color: black;
+    font-weight: bold; }
+  .footer-form {
+    text-align: center; }
+  .footer-form__name {
+    margin-top: 40px;
+    background-color: #e5e9f2; }
+  .footer-form__textarea {
+    margin-top: 30px; }
+  .footer-form__input {
+    background-color: #e5e9f2;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+    color: #b2b5bc;
+    border-bottom: 1px #000 solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    letter-spacing: 0px;
+    width: 200px;
+    padding: 0  0 15px 0; }
+  .footer-form__button {
+    margin-top: 25px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    background-color: #0082b7;
+    font-size: 14px;
+    letter-spacing: 0px;
+    font-family: "Lato";
+    color: white;
+    font-family: "";
+    font-weight: 700;
+    text-align: center;
+    width: 136px;
+    height: 36px;
+    border: none; }
+  .socials {
+    border: none;
+    height: 30px;
+    width: 40px;
+    display: inline-block;
+    background: url(../Oxygen-project/img/socials.png) no-repeat; }
+  .google {
+    background-position: -40px 0;
+    cursor: pointer; }
+  .vk {
+    background-position: -100px 0;
+    cursor: pointer; }
+  .youtube {
+    background-position: -155px 0;
+    cursor: pointer; }
+  .ln {
+    background-position: -205px 0;
+    cursor: pointer; }
+  .footer-content__block {
+    flex-wrap: wrap;
+    padding-bottom: 20px; }
+  /* CLINIC CARD */
+  .clinic_card__head {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 40px; }
+  .clinic_card__title {
+    font-family: "Myriad Pro";
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1px; }
+  .clinic_card__name {
+    margin: 20px 0 40px 0; }
+  .clinic_card__adrress {
+    font-family: "Tahoma";
+    font-size: 14px;
+    color: #43b1d2;
+    font-style: italic; }
+  .clinic_card__info {
+    font-family: "Calibri";
+    font-size: 16px;
+    margin-bottom: 20px; }
+  .clinic_card__number {
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center; }
+  .clinic_card__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .clinic_card__button {
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    background-color: #37c3a8;
+    border: solid;
+    border-radius: 5px;
+    border-color: #37c3a8;
+    color: white;
+    padding: 5px 10px; }
+  /* CLINIC CARD */
+  /* copyright */
+  .footer-info {
+    background-color: #43b1d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 105px; }
+  .footer-content__block {
+    justify-content: center;
+    width: 100%; } }
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+  .footer {
+    flex-direction: column; }
+  .brand {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; }
+  .header__brand {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px; }
+  .brand__name {
+    padding-left: 16px;
+    font-size: 19px;
+    font-family: "Calibri";
+    color: white;
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: left;
+    text-shadow: 0px 6px 14px rgba(0, 0, 0, 0.35); }
+  .brand__phone {
+    font-size: 15px;
+    font-family: "Tahoma";
+    color: white;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: left; }
+  .brand__phone span {
+    padding-left: 4px; }
+  .menu a, li {
+    color: #494848;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: "Calibri"; }
+  .services__items {
+    background-color: turquoise;
+    display: none;
+    padding: 16px; }
+  .menu__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* flex-basis: 100%; */
+    padding: 0;
+    flex-wrap: wrap; }
+  .menu__items li {
+    list-style-type: none;
+    padding-left: 10px; }
+  .list__item-text {
+    font-size: 14px;
+    color: #a7aab1;
+    padding-left: 40px; }
+  .footer-links__item {
+    padding-bottom: 15px;
+    font-size: 16px;
+    letter-spacing: 0px; }
+  .footer-links__item:first-child {
+    padding-top: 40px; }
+  .arrow::before {
+    content: "\25B6";
+    color: #0087be;
+    padding-right: 21px; }
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 16px; }
+  .call-back {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+  .call-back__lable {
+    font-size: 18px;
+    font-family: "Calibri";
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-right: 10px;
+    padding-bottom: 10px; }
+  #call-back__input {
+    border: none;
+    width: 200px;
+    height: 28px;
+    border-radius: 5px;
+    padding-left: 15px; }
+  .call-back__button {
+    width: 102px;
+    height: 30px;
+    background-color: #cbd4e6;
+    border-radius: 8px;
+    border-left: solid 1px #494848;
+    margin-top: 10px; }
+  .list__item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px; }
+  .list__item_mail {
+    width: 40px;
+    height: 31px; }
+  .list__item_phone {
+    width: 27px;
+    height: 40px;
+    padding-left: 5px;
+    margin-right: 7px; }
+  .list__item:first-child {
+    padding-top: 40px; }
+  .footer-links a, li {
+    font-family: "Myriad Pro";
+    color: #a7aab1;
+    font-size: 14px;
+    letter-spacing: 1px; }
+  .footer-content__column {
+    font-size: 20px;
+    font-family: "Calibri";
+    color: black;
+    font-weight: bold; }
+  .footer-form {
+    text-align: center; }
+  .footer-form__name {
+    margin-top: 40px;
+    background-color: #e5e9f2; }
+  .footer-form__textarea {
+    margin-top: 30px; }
+  .footer-form__input {
+    background-color: #e5e9f2;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+    color: #b2b5bc;
+    border-bottom: 1px #000 solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    letter-spacing: 0px;
+    width: 200px;
+    padding: 0  0 15px 0; }
+  .footer-form__button {
+    margin-top: 25px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    background-color: #0082b7;
+    font-size: 14px;
+    letter-spacing: 0px;
+    font-family: "Lato";
+    color: white;
+    font-family: "";
+    font-weight: 700;
+    text-align: center;
+    width: 136px;
+    height: 36px;
+    border: none; }
+  .socials {
+    border: none;
+    height: 30px;
+    width: 40px;
+    display: inline-block;
+    background: url(../Oxygen-project/img/socials.png) no-repeat; }
+  .google {
+    background-position: -40px 0;
+    cursor: pointer; }
+  .vk {
+    background-position: -100px 0;
+    cursor: pointer; }
+  .youtube {
+    background-position: -155px 0;
+    cursor: pointer; }
+  .ln {
+    background-position: -205px 0;
+    cursor: pointer; }
+  .footer-content__block {
+    flex-wrap: wrap;
+    padding-bottom: 20px; }
+  /* CLINIC CARD */
+  .clinic_card__head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; }
+  .clinic_card__title {
+    font-family: "Myriad Pro";
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1px;
+    display: flex;
+    flex-direction: column;
+    text-align: end; }
+  .clinic_card__name {
+    margin: 20px 0 40px 0; }
+  .clinic_card__adrress {
+    font-family: "Tahoma";
+    font-size: 14px;
+    color: #43b1d2;
+    font-style: italic; }
+  .clinic_card__info {
+    font-family: "Calibri";
+    font-size: 16px;
+    margin-bottom: 20px; }
+  .clinic_card__number {
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    font-weight: bold; }
+  .clinic_card__footer {
+    display: flex;
+    justify-content: space-between; }
+  .clinic_card__button {
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    background-color: #37c3a8;
+    border: solid;
+    border-radius: 5px;
+    border-color: #37c3a8;
+    color: white;
+    padding: 5px 10px; }
+  /* CLINIC CARD */
+  /* copyright */
+  .footer-info {
+    background-color: #43b1d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 105px; }
+  .footer-content__block {
+    justify-content: center;
+    width: 100%; } }
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+  .footer {
+    flex-direction: column; }
+  .brand {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; }
+  .header__brand {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px 0 10px; }
+  .brand__name {
+    padding-left: 16px;
+    font-size: 19px;
+    font-family: "Calibri";
+    color: white;
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: left;
+    text-shadow: 0px 6px 14px rgba(0, 0, 0, 0.35); }
+  .brand__phone {
+    font-size: 15px;
+    font-family: "Tahoma";
+    color: white;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: left; }
+  .brand__phone span {
+    padding-left: 4px; }
+  .menu a, li {
+    color: #494848;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: "Calibri"; }
+  .services__items {
+    background-color: turquoise;
+    display: none;
+    padding: 16px; }
+  .menu__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* flex-basis: 100%; */
+    padding: 0;
+    /* flex-wrap: wrap; */ }
+  .menu__items li {
+    list-style-type: none;
+    padding-left: 10px; }
+  .list__item-text {
+    font-size: 14px;
+    color: #a7aab1;
+    padding-left: 40px; }
+  .footer-links__item {
+    padding-bottom: 15px;
+    font-size: 16px;
+    letter-spacing: 0px; }
+  .footer-links__item:first-child {
+    padding-top: 40px; }
+  .arrow::before {
+    content: "\25B6";
+    color: #0087be;
+    padding-right: 21px; }
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 16px; }
+  .call-back {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+  .call-back__lable {
+    font-size: 18px;
+    font-family: "Calibri";
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-right: 10px;
+    padding-bottom: 10px; }
+  #call-back__input {
+    border: none;
+    width: 200px;
+    height: 28px;
+    border-radius: 5px;
+    padding-left: 15px; }
+  .call-back__button {
+    width: 102px;
+    height: 30px;
+    background-color: #cbd4e6;
+    border-radius: 8px;
+    border-left: solid 1px #494848;
+    margin-top: 10px; }
+  .list__item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px; }
+  .list__item_mail {
+    width: 40px;
+    height: 31px; }
+  .list__item_phone {
+    width: 27px;
+    height: 40px;
+    padding-left: 5px;
+    margin-right: 7px; }
+  .list__item:first-child {
+    padding-top: 40px; }
+  .footer-links a, li {
+    font-family: "Myriad Pro";
+    color: #a7aab1;
+    font-size: 14px;
+    letter-spacing: 1px; }
+  .footer-content__column {
+    font-size: 20px;
+    font-family: "Calibri";
+    color: black;
+    font-weight: bold; }
+  .footer-form {
+    text-align: center; }
+  .footer-form__name {
+    margin-top: 40px;
+    background-color: #e5e9f2; }
+  .footer-form__textarea {
+    margin-top: 30px; }
+  .footer-form__input {
+    background-color: #e5e9f2;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+    color: #b2b5bc;
+    border-bottom: 1px #000 solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    letter-spacing: 0px;
+    width: 200px;
+    padding: 0  0 15px 0; }
+  .footer-form__button {
+    margin-top: 25px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    background-color: #0082b7;
+    font-size: 14px;
+    letter-spacing: 0px;
+    font-family: "Lato";
+    color: white;
+    font-family: "";
+    font-weight: 700;
+    text-align: center;
+    width: 136px;
+    height: 36px;
+    border: none; }
+  .socials {
+    border: none;
+    height: 30px;
+    width: 40px;
+    display: inline-block;
+    background: url(../Oxygen-project/img/socials.png) no-repeat; }
+  .google {
+    background-position: -40px 0;
+    cursor: pointer; }
+  .vk {
+    background-position: -100px 0;
+    cursor: pointer; }
+  .youtube {
+    background-position: -155px 0;
+    cursor: pointer; }
+  .ln {
+    background-position: -205px 0;
+    cursor: pointer; }
+  .footer-content__block {
+    flex-wrap: wrap;
+    padding-bottom: 20px; }
+  /* CLINIC CARD */
+  .clinic_card__head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; }
+  .clinic_card__title {
+    font-family: "Myriad Pro";
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1px;
+    display: flex;
+    flex-direction: column;
+    text-align: end; }
+  .clinic_card__name {
+    margin: 20px 0 40px 0; }
+  .clinic_card__adrress {
+    font-family: "Tahoma";
+    font-size: 14px;
+    color: #43b1d2;
+    font-style: italic; }
+  .clinic_card__info {
+    font-family: "Calibri";
+    font-size: 16px;
+    margin-bottom: 20px; }
+  .clinic_card__number {
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    font-weight: bold; }
+  .clinic_card__footer {
+    display: flex;
+    justify-content: space-between; }
+  .clinic_card__button {
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    background-color: #37c3a8;
+    border: solid;
+    border-radius: 5px;
+    border-color: #37c3a8;
+    color: white;
+    padding: 5px 10px; }
+  /* CLINIC CARD */
+  /* copyright */
+  .footer-info {
+    background-color: #43b1d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 105px; }
+  .footer-content__block {
+    justify-content: center;
+    width: 100%; } }
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  .header__brand {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 16px; }
+  .brand {
+    display: flex;
+    align-items: center; }
+  .brand__name {
+    padding-left: 16px;
+    font-size: 24px;
+    font-family: "Calibri";
+    color: white;
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: left;
+    text-shadow: 0px 6px 14px rgba(0, 0, 0, 0.35); }
+  .brand__phone {
+    font-size: 20px;
+    font-family: "Tahoma";
+    color: white;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: left; }
+  .brand__phone span {
+    padding-left: 10px; }
+  .menu__items {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    padding: 0;
+    justify-content: flex-end;
+    margin-top: -35px;
+    padding: 0 16px 16px 0; }
+  .menu a, li {
+    color: #494848;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-family: "Calibri"; }
+  .menu__items a {
+    text-decoration: none; }
+  .menu__items li {
+    list-style-type: none;
+    padding-left: 16px; }
+  .services {
+    margin: 0;
+    padding: 0; }
+  .services__items {
+    background-color: turquoise;
+    display: none;
+    padding: 16px; }
+  /* FOOTER<<<<<<<<<<<<<<<<<<<<<<< */
+  .list__item-text {
+    font-size: 14px;
+    color: #a7aab1;
+    padding-left: 40px; }
+  .footer-links__item {
+    padding-bottom: 15px;
+    font-size: 16px;
+    letter-spacing: 0px; }
+  .footer-links__item:first-child {
+    padding-top: 40px; }
+  .arrow::before {
+    content: "\25B6";
+    color: #0087be;
+    padding-right: 21px; }
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 16px; }
+  .call-back {
+    display: flex;
+    align-items: center; }
+  .call-back__lable {
+    font-size: 24px;
+    font-family: "Calibri";
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-right: 10px; }
+  #call-back__input {
+    border: none;
+    width: 200px;
+    height: 28px;
+    border-radius: 5px 0 0 5px;
+    padding-left: 15px; }
+  .call-back__button {
+    width: 102px;
+    height: 30px;
+    background-color: #cbd4e6;
+    border-radius: 0 8px 8px 0;
+    border-left: solid 1px #494848; }
+  .list__item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px; }
+  .list__item_mail {
+    width: 40px;
+    height: 31px; }
+  .list__item_phone {
+    width: 27px;
+    height: 40px;
+    padding-left: 5px;
+    margin-right: 7px; }
+  .list__item:first-child {
+    padding-top: 40px; }
+  .footer-links a, li {
+    font-family: "Myriad Pro";
+    color: #a7aab1;
+    font-size: 14px;
+    letter-spacing: 1px; }
+  .footer-content__column {
+    font-size: 20px;
+    font-family: "Calibri";
+    color: black;
+    font-weight: bold; }
+  .footer-form__name {
+    margin-top: 40px;
+    background-color: #e5e9f2; }
+  .footer-form__textarea {
+    margin-top: 30px; }
+  .footer-form__input {
+    background-color: #e5e9f2;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+    color: #b2b5bc;
+    border-bottom: 1px #000 solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    letter-spacing: 0px;
+    width: 200px;
+    padding: 0  0 15px 0; }
+  .footer-form__button {
+    margin-top: 25px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    background-color: #0082b7;
+    font-size: 14px;
+    letter-spacing: 0px;
+    font-family: "Lato";
+    color: white;
+    font-family: "";
+    font-weight: 700;
+    text-align: center;
+    width: 136px;
+    height: 36px;
+    border: none; }
+  .socials {
+    border: none;
+    height: 30px;
+    width: 40px;
+    display: inline-block;
+    background: url(../Oxygen-project/img/socials.png) no-repeat; }
+  .google {
+    background-position: -40px 0;
+    cursor: pointer; }
+  .vk {
+    background-position: -100px 0;
+    cursor: pointer; }
+  .youtube {
+    background-position: -155px 0;
+    cursor: pointer; }
+  .ln {
+    background-position: -205px 0;
+    cursor: pointer; }
+  /* CLINIC CARD */
+  .clinic_card__head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; }
+  .clinic_card__title {
+    font-family: "Myriad Pro";
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1px;
+    display: flex;
+    flex-direction: column;
+    text-align: end; }
+  .clinic_card__name {
+    margin: 20px 0 40px 0; }
+  .clinic_card__adrress {
+    font-family: "Tahoma";
+    font-size: 14px;
+    color: #43b1d2;
+    font-style: italic; }
+  .clinic_card__info {
+    font-family: "Calibri";
+    font-size: 16px;
+    margin-bottom: 20px; }
+  .clinic_card__number {
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    font-weight: bold; }
+  .clinic_card__footer {
+    display: flex;
+    justify-content: space-between; }
+  .clinic_card__button {
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    background-color: #37c3a8;
+    border: solid;
+    border-radius: 5px;
+    border-color: #37c3a8;
+    color: white;
+    padding: 5px 10px; }
+  /* CLINIC CARD */
+  /* copyright */
+  .footer-info {
+    background-color: #43b1d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 105px; } }
+
+@media (min-width: 1200px) {
+  /* ШАПКА<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+  .header__brand {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 16px; }
+  .brand {
+    display: flex;
+    align-items: center; }
+  .brand__name {
+    padding-left: 16px;
+    font-size: 24px;
+    font-family: "Calibri";
+    color: white;
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: left;
+    text-shadow: 0px 6px 14px rgba(0, 0, 0, 0.35); }
+  .brand__phone {
+    font-size: 20px;
+    font-family: "Tahoma";
+    color: white;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: left; }
+  .brand__phone span {
+    padding-left: 10px; }
+  .menu__items {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    padding: 0;
+    justify-content: flex-end;
+    margin-top: -35px;
+    padding: 0 16px 16px 0; }
+  .menu a, li {
+    color: #494848;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-family: "Calibri"; }
+  .menu__items a {
+    text-decoration: none; }
+  .menu__items li {
+    list-style-type: none;
+    padding-left: 16px; }
+  .services {
+    margin: 0;
+    padding: 0; }
+  .services__items {
+    background-color: turquoise;
+    display: none;
+    padding: 16px; }
+  /* FOOTER<<<<<<<<<<<<<<<<<<<<<<< */
+  .list__item-text {
+    font-size: 14px;
+    color: #a7aab1;
+    padding-left: 40px; }
+  .footer-links__item {
+    padding-bottom: 15px;
+    font-size: 16px;
+    letter-spacing: 0px; }
+  .footer-links__item:first-child {
+    padding-top: 40px; }
+  .arrow::before {
+    content: "\25B6";
+    color: #0087be;
+    padding-right: 21px; }
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 16px; }
+  .call-back {
+    display: flex;
+    align-items: center; }
+  .call-back__lable {
+    font-size: 24px;
+    font-family: "Calibri";
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-right: 10px; }
+  #call-back__input {
+    border: none;
+    width: 200px;
+    height: 28px;
+    border-radius: 5px 0 0 5px;
+    padding-left: 15px; }
+  .call-back__button {
+    width: 102px;
+    height: 30px;
+    background-color: #cbd4e6;
+    border-radius: 0 8px 8px 0;
+    border-left: solid 1px #494848; }
+  .list__item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px; }
+  .list__item_mail {
+    width: 40px;
+    height: 31px; }
+  .list__item_phone {
+    width: 27px;
+    height: 40px;
+    padding-left: 5px;
+    margin-right: 7px; }
+  .list__item:first-child {
+    padding-top: 40px; }
+  .footer-links a, li {
+    font-family: "Myriad Pro";
+    color: #a7aab1;
+    font-size: 14px;
+    letter-spacing: 1px; }
+  .footer-content__column {
+    font-size: 20px;
+    font-family: "Calibri";
+    color: black;
+    font-weight: bold; }
+  .footer-form__name {
+    margin-top: 40px;
+    background-color: #e5e9f2; }
+  .footer-form__textarea {
+    margin-top: 30px; }
+  .footer-form__input {
+    background-color: #e5e9f2;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+    color: #b2b5bc;
+    border-bottom: 1px #000 solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    letter-spacing: 0px;
+    width: 200px;
+    padding: 0  0 15px 0; }
+  .footer-form__button {
+    margin-top: 25px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    background-color: #0082b7;
+    font-size: 14px;
+    letter-spacing: 0px;
+    font-family: "Lato";
+    color: white;
+    font-family: "";
+    font-weight: 700;
+    text-align: center;
+    width: 136px;
+    height: 36px;
+    border: none; }
+  .socials {
+    border: none;
+    height: 30px;
+    width: 40px;
+    display: inline-block;
+    background: url(../Oxygen-project/img/socials.png) no-repeat; }
+  .google {
+    background-position: -40px 0;
+    cursor: pointer; }
+  .vk {
+    background-position: -100px 0;
+    cursor: pointer; }
+  .youtube {
+    background-position: -155px 0;
+    cursor: pointer; }
+  .ln {
+    background-position: -205px 0;
+    cursor: pointer; }
+  /* copyright */
+  .footer-info {
+    background-color: #43b1d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 105px; }
+  /* CLINIC CARD */
+  .clinic_card__head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; }
+  .clinic_card__title {
+    font-family: "Myriad Pro";
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1px;
+    display: flex;
+    flex-direction: column;
+    text-align: end; }
+  .clinic_card__name {
+    margin: 20px 0 40px 0; }
+  .clinic_card__adrress {
+    font-family: "Tahoma";
+    font-size: 14px;
+    color: #43b1d2;
+    font-style: italic; }
+  .clinic_card__info {
+    font-family: "Calibri";
+    font-size: 16px;
+    margin-bottom: 20px; }
+  .clinic_card__number {
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    font-weight: bold; }
+  .clinic_card__footer {
+    display: flex;
+    justify-content: space-between; }
+  .clinic_card__button {
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    background-color: #37c3a8;
+    border: solid;
+    border-radius: 5px;
+    border-color: #37c3a8;
+    color: white;
+    padding: 5px 10px; }
+  /* CLINIC CARD */ }
